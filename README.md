@@ -22,6 +22,7 @@ Point to consider as you outline your design:
 The (mock) API endpoints you’ll be using to request data and to drive your UI are: 
 -	Teams by League: https://grace.com/api/basketball/teams/leagueID=${leagueID}
 -	Players by Team: https://grace.com/api/basketball/players/teamID=${teamID}
+- Games by Team: https://grace.com/api/basketball/games/teamID=${teamID}
 -	Shots by Date Range: https://grace.com/api/basketball/shots/teamID=${teamID}/playerID=${playerID}/startDate=${startDate}/endDate=${endDate}
 -	Shot By Game: https://grace.com/api/basketball/shots/teamID=${teamID}/playerID=${playerID}/gameID=${gameID}
 
